@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CFA563E18C081D800B636E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA563D18C081D800B636E9 /* Foundation.framework */; };
+		3CFA567918C0825500B636E9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA567818C0825500B636E9 /* libstdc++.dylib */; };
+		3CFA567B18C0825D00B636E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA567A18C0825D00B636E9 /* UIKit.framework */; };
+		3CFA567D18C0827B00B636E9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA567C18C0827B00B636E9 /* libsqlite3.dylib */; };
+		3CFA567F18C0828200B636E9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA567E18C0828200B636E9 /* libz.dylib */; };
+		3CFA568118C0829A00B636E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA568018C0829A00B636E9 /* SystemConfiguration.framework */; };
+		3CFA568318C082A400B636E9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA568218C082A400B636E9 /* MobileCoreServices.framework */; };
+		3CFA568518C082AD00B636E9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA568418C082AD00B636E9 /* CoreTelephony.framework */; };
+		3CFA568918C082CE00B636E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA568818C082CE00B636E9 /* AudioToolbox.framework */; };
+		3CFA587918C08FE500B636E9 /* EUExCreditCardRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA586E18C08FE500B636E9 /* EUExCreditCardRec.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3CFA587E18C0910400B636E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA587D18C0910400B636E9 /* MapKit.framework */; };
+		3CFA588018C0911600B636E9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA587F18C0911600B636E9 /* CoreMedia.framework */; };
+		3CFA588218C0912500B636E9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CFA588118C0912500B636E9 /* AVFoundation.framework */; };
+		F7D206FA1A72119C005DEF3E /* libAppCanEngine_IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D206F91A72119C005DEF3E /* libAppCanEngine_IOS.a */; };
+		F7D2072C1A72124F005DEF3E /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D2072B1A72124F005DEF3E /* libCardIO.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CFA563818C081D800B636E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3CFA563A18C081D800B636E9 /* uexCreditCardRec.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = uexCreditCardRec.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFA563D18C081D800B636E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CFA567818C0825500B636E9 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		3CFA567A18C0825D00B636E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CFA567C18C0827B00B636E9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3CFA567E18C0828200B636E9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3CFA568018C0829A00B636E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3CFA568218C082A400B636E9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3CFA568418C082AD00B636E9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3CFA568818C082CE00B636E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3CFA586918C08FE500B636E9 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		3CFA586A18C08FE500B636E9 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		3CFA586B18C08FE500B636E9 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		3CFA586C18C08FE500B636E9 /* EUExCreditCardRec-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EUExCreditCardRec-Prefix.pch"; path = "EUExCreditCardRec/EUExCreditCardRec-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3CFA586D18C08FE500B636E9 /* EUExCreditCardRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EUExCreditCardRec.h; path = EUExCreditCardRec/EUExCreditCardRec.h; sourceTree = SOURCE_ROOT; };
+		3CFA586E18C08FE500B636E9 /* EUExCreditCardRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EUExCreditCardRec.m; path = EUExCreditCardRec/EUExCreditCardRec.m; sourceTree = SOURCE_ROOT; };
+		3CFA587618C08FE500B636E9 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		3CFA587718C08FE500B636E9 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		3CFA587818C08FE500B636E9 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		3CFA587D18C0910400B636E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3CFA587F18C0911600B636E9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3CFA588118C0912500B636E9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7D206F91A72119C005DEF3E /* libAppCanEngine_IOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppCanEngine_IOS.a; path = "../../../每一天/20150122/public/libAppCanEngine_IOS.a"; sourceTree = "<group>"; };
+		F7D207271A72124F005DEF3E /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		F7D207281A72124F005DEF3E /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		F7D207291A72124F005DEF3E /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		F7D2072A1A72124F005DEF3E /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		F7D2072B1A72124F005DEF3E /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CFA563718C081D800B636E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFA588218C0912500B636E9 /* AVFoundation.framework in Frameworks */,
+				3CFA588018C0911600B636E9 /* CoreMedia.framework in Frameworks */,
+				3CFA587E18C0910400B636E9 /* MapKit.framework in Frameworks */,
+				3CFA563E18C081D800B636E9 /* Foundation.framework in Frameworks */,
+				3CFA567B18C0825D00B636E9 /* UIKit.framework in Frameworks */,
+				3CFA568118C0829A00B636E9 /* SystemConfiguration.framework in Frameworks */,
+				3CFA568318C082A400B636E9 /* MobileCoreServices.framework in Frameworks */,
+				3CFA568518C082AD00B636E9 /* CoreTelephony.framework in Frameworks */,
+				3CFA568918C082CE00B636E9 /* AudioToolbox.framework in Frameworks */,
+				F7D206FA1A72119C005DEF3E /* libAppCanEngine_IOS.a in Frameworks */,
+				3CFA567F18C0828200B636E9 /* libz.dylib in Frameworks */,
+				F7D2072C1A72124F005DEF3E /* libCardIO.a in Frameworks */,
+				3CFA567D18C0827B00B636E9 /* libsqlite3.dylib in Frameworks */,
+				3CFA567918C0825500B636E9 /* libstdc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CFA563118C081D800B636E9 = {
+			isa = PBXGroup;
+			children = (
+				3CFA563F18C081D800B636E9 /* uexCreditCardRec */,
+				3CFA563C18C081D800B636E9 /* Frameworks */,
+				3CFA563B18C081D800B636E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CFA563B18C081D800B636E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA563A18C081D800B636E9 /* uexCreditCardRec.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CFA563C18C081D800B636E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA588118C0912500B636E9 /* AVFoundation.framework */,
+				3CFA587F18C0911600B636E9 /* CoreMedia.framework */,
+				3CFA587D18C0910400B636E9 /* MapKit.framework */,
+				3CFA568818C082CE00B636E9 /* AudioToolbox.framework */,
+				3CFA568418C082AD00B636E9 /* CoreTelephony.framework */,
+				3CFA568218C082A400B636E9 /* MobileCoreServices.framework */,
+				3CFA568018C0829A00B636E9 /* SystemConfiguration.framework */,
+				3CFA567E18C0828200B636E9 /* libz.dylib */,
+				3CFA567C18C0827B00B636E9 /* libsqlite3.dylib */,
+				3CFA567A18C0825D00B636E9 /* UIKit.framework */,
+				3CFA567818C0825500B636E9 /* libstdc++.dylib */,
+				F7D206F91A72119C005DEF3E /* libAppCanEngine_IOS.a */,
+				3CFA563D18C081D800B636E9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CFA563F18C081D800B636E9 /* uexCreditCardRec */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA586818C08FE500B636E9 /* engineHeader */,
+				3CFA586C18C08FE500B636E9 /* EUExCreditCardRec-Prefix.pch */,
+				3CFA586D18C08FE500B636E9 /* EUExCreditCardRec.h */,
+				3CFA586E18C08FE500B636E9 /* EUExCreditCardRec.m */,
+				3CFA586F18C08FE500B636E9 /* sourceCode */,
+			);
+			path = uexCreditCardRec;
+			sourceTree = "<group>";
+		};
+		3CFA586818C08FE500B636E9 /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA586918C08FE500B636E9 /* EUExBase.h */,
+				3CFA586A18C08FE500B636E9 /* EUExBaseDefine.h */,
+				3CFA586B18C08FE500B636E9 /* EUtility.h */,
+			);
+			name = engineHeader;
+			path = EUExCreditCardRec/engineHeader;
+			sourceTree = SOURCE_ROOT;
+		};
+		3CFA586F18C08FE500B636E9 /* sourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				F7D207261A72124F005DEF3E /* cardioLib */,
+				3CFA587618C08FE500B636E9 /* EUExBase.h */,
+				3CFA587718C08FE500B636E9 /* EUExBaseDefine.h */,
+				3CFA587818C08FE500B636E9 /* EUtility.h */,
+			);
+			name = sourceCode;
+			path = EUExCreditCardRec/sourceCode;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7D207261A72124F005DEF3E /* cardioLib */ = {
+			isa = PBXGroup;
+			children = (
+				F7D207271A72124F005DEF3E /* CardIO.h */,
+				F7D207281A72124F005DEF3E /* CardIOCreditCardInfo.h */,
+				F7D207291A72124F005DEF3E /* CardIOPaymentViewController.h */,
+				F7D2072A1A72124F005DEF3E /* CardIOPaymentViewControllerDelegate.h */,
+				F7D2072B1A72124F005DEF3E /* libCardIO.a */,
+			);
+			path = cardioLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CFA563918C081D800B636E9 /* uexCreditCardRec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CFA565D18C081D800B636E9 /* Build configuration list for PBXNativeTarget "uexCreditCardRec" */;
+			buildPhases = (
+				3CFA563618C081D800B636E9 /* Sources */,
+				3CFA563718C081D800B636E9 /* Frameworks */,
+				3CFA563818C081D800B636E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexCreditCardRec;
+			productName = uexCreditCardRec;
+			productReference = 3CFA563A18C081D800B636E9 /* uexCreditCardRec.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CFA563218C081D800B636E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = demo;
+			};
+			buildConfigurationList = 3CFA563518C081D800B636E9 /* Build configuration list for PBXProject "uexCreditCardRec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CFA563118C081D800B636E9;
+			productRefGroup = 3CFA563B18C081D800B636E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CFA563918C081D800B636E9 /* uexCreditCardRec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CFA563618C081D800B636E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFA587918C08FE500B636E9 /* EUExCreditCardRec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CFA565B18C081D800B636E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengyi Wireless(Beijing) Technology Co., Ltd.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3CFA565C18C081D800B636E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengyi Wireless(Beijing) Technology Co., Ltd.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		3CFA565E18C081D800B636E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: leilei xu (T8E4RVNP82)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCreditCardRec/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/uexCreditCardRec.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExCreditCardRec/EUExCreditCardRec-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../",
+					"$(inherited)",
+					"$(SRCROOT)/EUExCreditCardRec/sourceCode/cardioLib",
+					"/Users/liguofu/Desktop/每一天/20150122/public",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode/PayPalMobile",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode/cardioLib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		3CFA565F18C081D800B636E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: leilei xu (T8E4RVNP82)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCreditCardRec/";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/uexCreditCardRec.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExCreditCardRec/EUExCreditCardRec-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../",
+					"$(inherited)",
+					"$(SRCROOT)/EUExCreditCardRec/sourceCode/cardioLib",
+					"/Users/liguofu/Desktop/每一天/20150122/public",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode/PayPalMobile",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode/cardioLib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CFA563518C081D800B636E9 /* Build configuration list for PBXProject "uexCreditCardRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFA565B18C081D800B636E9 /* Debug */,
+				3CFA565C18C081D800B636E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CFA565D18C081D800B636E9 /* Build configuration list for PBXNativeTarget "uexCreditCardRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFA565E18C081D800B636E9 /* Debug */,
+				3CFA565F18C081D800B636E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CFA563218C081D800B636E9 /* Project object */;
+}
