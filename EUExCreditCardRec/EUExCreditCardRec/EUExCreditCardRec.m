@@ -25,10 +25,13 @@
 {
     if (inArguments != nil && [inArguments count] == 1)
     {
-        NSString *tokenStr = [inArguments objectAtIndex:0];
+//        NSString *tokenStr = [inArguments objectAtIndex:0];
         CardIOPaymentViewController *scanViewController = [[CardIOPaymentViewController alloc] initWithPaymentDelegate:self];
+        scanViewController.collectCVV = NO;//去掉安全码输入
+        scanViewController.collectExpiry = NO;//去掉失效日期
+        
         // 从card.io网站，得到你的应用程序口令
-        scanViewController.appToken = tokenStr;
+//        scanViewController.appToken = tokenStr;
         
         [EUtility brwView:meBrwView presentModalViewController:scanViewController animated:YES];
     } else {
@@ -48,7 +51,7 @@
     // 完整的卡号是可作为info.cardNumber，但没有登录！
     
     // 使用该卡信息
-    if (info.cardNumber != nil && info.expiryMonth != 0 && info.expiryYear != 0 && info.cvv != nil)
+    if (info.cardNumber != nil /*&& info.expiryMonth != 0 && info.expiryYear != 0 && info.cvv != nil*/)
     {
         NSString *jsString = [NSString stringWithFormat:@"if(uexCreditCardRec.callBackCreditCard!=null){uexCreditCardRec.callBackCreditCard('%@','%02i/%i','%@');}",info.cardNumber,info.expiryMonth, info.expiryYear, info.cvv];
         NSLog(@"jsString = %@",jsString);
