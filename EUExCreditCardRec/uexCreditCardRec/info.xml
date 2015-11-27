@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexCreditCardRec" version="3.0.2" build="2">
-        <info>2:uexCreditCardRec插件更新第三方libPayPalMobile.a,支持arm64</info>
+        uexName="uexCreditCardRec" version="3.0.3" build="3">
+        <info>3:支持iOS9</info>
+        <build>2:uexCreditCardRec插件更新第三方libPayPalMobile.a,支持arm64</build>
         <build>1:统一回调方法名，统一回调参数</build>
         <build>0:信用卡识别功能插件</build>
     </plugin>
