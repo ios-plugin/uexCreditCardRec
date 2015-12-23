@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42EE603A1C2A4B69007CFCB4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE60391C2A4B69007CFCB4 /* Security.framework */; };
+		42EE603C1C2A4B6E007CFCB4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE603B1C2A4B6E007CFCB4 /* OpenGLES.framework */; };
+		42EE603E1C2A4B77007CFCB4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE603D1C2A4B77007CFCB4 /* CoreVideo.framework */; };
+		42EE60401C2A4B7C007CFCB4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE603F1C2A4B7C007CFCB4 /* CoreMedia.framework */; };
 		5A50159F188FC1AE0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A50159E188FC1AE0022E07C /* Foundation.framework */; };
 		5A5015A6188FC1AE0022E07C /* EUExCreditCardRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5015A5188FC1AE0022E07C /* EUExCreditCardRec.m */; };
 		5F7857A71C03082800365524 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F78579F1C03082800365524 /* libPayPalMobile.a */; };
@@ -28,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		42EE60391C2A4B69007CFCB4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42EE603B1C2A4B6E007CFCB4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		42EE603D1C2A4B77007CFCB4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		42EE603F1C2A4B7C007CFCB4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		5A50159B188FC1AE0022E07C /* libuexCreditCardRec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexCreditCardRec.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A50159E188FC1AE0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A5015A2188FC1AE0022E07C /* EUExCreditCardRec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExCreditCardRec-Prefix.pch"; sourceTree = "<group>"; };
@@ -65,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42EE60401C2A4B7C007CFCB4 /* CoreMedia.framework in Frameworks */,
+				42EE603E1C2A4B77007CFCB4 /* CoreVideo.framework in Frameworks */,
+				42EE603C1C2A4B6E007CFCB4 /* OpenGLES.framework in Frameworks */,
+				42EE603A1C2A4B69007CFCB4 /* Security.framework in Frameworks */,
 				5F7857A71C03082800365524 /* libPayPalMobile.a in Frameworks */,
 				5F7857B51C03083300365524 /* libopencv_core.a in Frameworks */,
 				5F7857B41C03083300365524 /* libCardIO.a in Frameworks */,
@@ -96,6 +108,10 @@
 		5A50159D188FC1AE0022E07C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42EE603F1C2A4B7C007CFCB4 /* CoreMedia.framework */,
+				42EE603D1C2A4B77007CFCB4 /* CoreVideo.framework */,
+				42EE603B1C2A4B6E007CFCB4 /* OpenGLES.framework */,
+				42EE60391C2A4B69007CFCB4 /* Security.framework */,
 				5A50159E188FC1AE0022E07C /* Foundation.framework */,
 			);
 			name = Frameworks;
