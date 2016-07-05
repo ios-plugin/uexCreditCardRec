@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2153D4F91D2223C300A846F3 /* AppCanKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2153D4F81D2223C300A846F3 /* AppCanKit.framework */; };
+		21807E8B1D2BB7FC0057D194 /* libCardIO_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E7F1D2BB7FC0057D194 /* libCardIO_arm64.a */; };
+		21807E8C1D2BB7FC0057D194 /* libCardIO_armv7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E801D2BB7FC0057D194 /* libCardIO_armv7.a */; };
+		21807E8D1D2BB7FC0057D194 /* libCardIO_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E811D2BB7FC0057D194 /* libCardIO_i386.a */; };
+		21807E8E1D2BB7FC0057D194 /* libCardIO_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E821D2BB7FC0057D194 /* libCardIO_x86_64.a */; };
+		21807E8F1D2BB7FC0057D194 /* libopencv_core_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E831D2BB7FC0057D194 /* libopencv_core_arm64.a */; };
+		21807E901D2BB7FC0057D194 /* libopencv_core_armv7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E841D2BB7FC0057D194 /* libopencv_core_armv7.a */; };
+		21807E911D2BB7FC0057D194 /* libopencv_core_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E851D2BB7FC0057D194 /* libopencv_core_i386.a */; };
+		21807E921D2BB7FC0057D194 /* libopencv_core_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E861D2BB7FC0057D194 /* libopencv_core_x86_64.a */; };
+		21807E931D2BB7FC0057D194 /* libopencv_imgproc_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E871D2BB7FC0057D194 /* libopencv_imgproc_arm64.a */; };
+		21807E941D2BB7FC0057D194 /* libopencv_imgproc_armv7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E881D2BB7FC0057D194 /* libopencv_imgproc_armv7.a */; };
+		21807E951D2BB7FC0057D194 /* libopencv_imgproc_i386.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E891D2BB7FC0057D194 /* libopencv_imgproc_i386.a */; };
+		21807E961D2BB7FC0057D194 /* libopencv_imgproc_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21807E8A1D2BB7FC0057D194 /* libopencv_imgproc_x86_64.a */; };
 		42EE603A1C2A4B69007CFCB4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE60391C2A4B69007CFCB4 /* Security.framework */; };
 		42EE603C1C2A4B6E007CFCB4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE603B1C2A4B6E007CFCB4 /* OpenGLES.framework */; };
 		42EE603E1C2A4B77007CFCB4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EE603D1C2A4B77007CFCB4 /* CoreVideo.framework */; };
@@ -14,9 +27,6 @@
 		5A50159F188FC1AE0022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A50159E188FC1AE0022E07C /* Foundation.framework */; };
 		5A5015A6188FC1AE0022E07C /* EUExCreditCardRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5015A5188FC1AE0022E07C /* EUExCreditCardRec.m */; };
 		5F7857A71C03082800365524 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F78579F1C03082800365524 /* libPayPalMobile.a */; };
-		5F7857B41C03083300365524 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7857B11C03083300365524 /* libCardIO.a */; };
-		5F7857B51C03083300365524 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7857B21C03083300365524 /* libopencv_core.a */; };
-		5F7857B61C03083300365524 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7857B31C03083300365524 /* libopencv_imgproc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +42,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2153D4F81D2223C300A846F3 /* AppCanKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCanKit.framework; sourceTree = "<group>"; };
+		21807E7F1D2BB7FC0057D194 /* libCardIO_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO_arm64.a; sourceTree = "<group>"; };
+		21807E801D2BB7FC0057D194 /* libCardIO_armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO_armv7.a; sourceTree = "<group>"; };
+		21807E811D2BB7FC0057D194 /* libCardIO_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO_i386.a; sourceTree = "<group>"; };
+		21807E821D2BB7FC0057D194 /* libCardIO_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO_x86_64.a; sourceTree = "<group>"; };
+		21807E831D2BB7FC0057D194 /* libopencv_core_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core_arm64.a; sourceTree = "<group>"; };
+		21807E841D2BB7FC0057D194 /* libopencv_core_armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core_armv7.a; sourceTree = "<group>"; };
+		21807E851D2BB7FC0057D194 /* libopencv_core_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core_i386.a; sourceTree = "<group>"; };
+		21807E861D2BB7FC0057D194 /* libopencv_core_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core_x86_64.a; sourceTree = "<group>"; };
+		21807E871D2BB7FC0057D194 /* libopencv_imgproc_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc_arm64.a; sourceTree = "<group>"; };
+		21807E881D2BB7FC0057D194 /* libopencv_imgproc_armv7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc_armv7.a; sourceTree = "<group>"; };
+		21807E891D2BB7FC0057D194 /* libopencv_imgproc_i386.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc_i386.a; sourceTree = "<group>"; };
+		21807E8A1D2BB7FC0057D194 /* libopencv_imgproc_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc_x86_64.a; sourceTree = "<group>"; };
 		42EE60391C2A4B69007CFCB4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		42EE603B1C2A4B6E007CFCB4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		42EE603D1C2A4B77007CFCB4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -40,12 +63,8 @@
 		5A50159E188FC1AE0022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A5015A2188FC1AE0022E07C /* EUExCreditCardRec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExCreditCardRec-Prefix.pch"; sourceTree = "<group>"; };
 		5A5015A5188FC1AE0022E07C /* EUExCreditCardRec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExCreditCardRec.m; sourceTree = "<group>"; };
-		5A5015C5188FC1F50022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
 		5A5015C6188FC1F50022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
 		5A5015C7188FC1F50022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
-		5A5015CF188FC1F50022E07C /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
-		5A5015D0188FC1F50022E07C /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
-		5A5015D1188FC1F50022E07C /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
 		5A60A96B18AB65B300C727A6 /* EUExCreditCardRec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUExCreditCardRec.h; sourceTree = "<group>"; };
 		5F78579F1C03082800365524 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
 		5F7857A01C03082800365524 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
@@ -63,9 +82,6 @@
 		5F7857AE1C03083300365524 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
 		5F7857AF1C03083300365524 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
 		5F7857B01C03083300365524 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
-		5F7857B11C03083300365524 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
-		5F7857B21C03083300365524 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
-		5F7857B31C03083300365524 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +89,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21807E951D2BB7FC0057D194 /* libopencv_imgproc_i386.a in Frameworks */,
+				21807E901D2BB7FC0057D194 /* libopencv_core_armv7.a in Frameworks */,
 				42EE60401C2A4B7C007CFCB4 /* CoreMedia.framework in Frameworks */,
+				21807E8D1D2BB7FC0057D194 /* libCardIO_i386.a in Frameworks */,
+				21807E941D2BB7FC0057D194 /* libopencv_imgproc_armv7.a in Frameworks */,
+				21807E931D2BB7FC0057D194 /* libopencv_imgproc_arm64.a in Frameworks */,
+				21807E921D2BB7FC0057D194 /* libopencv_core_x86_64.a in Frameworks */,
+				21807E8E1D2BB7FC0057D194 /* libCardIO_x86_64.a in Frameworks */,
 				42EE603E1C2A4B77007CFCB4 /* CoreVideo.framework in Frameworks */,
+				21807E8B1D2BB7FC0057D194 /* libCardIO_arm64.a in Frameworks */,
+				21807E8C1D2BB7FC0057D194 /* libCardIO_armv7.a in Frameworks */,
 				42EE603C1C2A4B6E007CFCB4 /* OpenGLES.framework in Frameworks */,
 				42EE603A1C2A4B69007CFCB4 /* Security.framework in Frameworks */,
+				21807E911D2BB7FC0057D194 /* libopencv_core_i386.a in Frameworks */,
+				21807E961D2BB7FC0057D194 /* libopencv_imgproc_x86_64.a in Frameworks */,
+				21807E8F1D2BB7FC0057D194 /* libopencv_core_arm64.a in Frameworks */,
+				2153D4F91D2223C300A846F3 /* AppCanKit.framework in Frameworks */,
 				5F7857A71C03082800365524 /* libPayPalMobile.a in Frameworks */,
-				5F7857B51C03083300365524 /* libopencv_core.a in Frameworks */,
-				5F7857B41C03083300365524 /* libCardIO.a in Frameworks */,
 				5A50159F188FC1AE0022E07C /* Foundation.framework in Frameworks */,
-				5F7857B61C03083300365524 /* libopencv_imgproc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +166,6 @@
 		5A5015C4188FC1F50022E07C /* engineHeader */ = {
 			isa = PBXGroup;
 			children = (
-				5A5015C5188FC1F50022E07C /* EUExBase.h */,
 				5A5015C6188FC1F50022E07C /* EUExBaseDefine.h */,
 				5A5015C7188FC1F50022E07C /* EUtility.h */,
 			);
@@ -150,11 +175,9 @@
 		5A5015C8188FC1F50022E07C /* sourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				2153D4F81D2223C300A846F3 /* AppCanKit.framework */,
 				5F7857A81C03083300365524 /* CardIO */,
 				5F78579E1C03082800365524 /* PayPalMobile */,
-				5A5015CF188FC1F50022E07C /* EUExBase.h */,
-				5A5015D0188FC1F50022E07C /* EUExBaseDefine.h */,
-				5A5015D1188FC1F50022E07C /* EUtility.h */,
 			);
 			path = sourceCode;
 			sourceTree = "<group>";
@@ -185,9 +208,18 @@
 				5F7857AE1C03083300365524 /* CardIOUtilities.h */,
 				5F7857AF1C03083300365524 /* CardIOView.h */,
 				5F7857B01C03083300365524 /* CardIOViewDelegate.h */,
-				5F7857B11C03083300365524 /* libCardIO.a */,
-				5F7857B21C03083300365524 /* libopencv_core.a */,
-				5F7857B31C03083300365524 /* libopencv_imgproc.a */,
+				21807E7F1D2BB7FC0057D194 /* libCardIO_arm64.a */,
+				21807E801D2BB7FC0057D194 /* libCardIO_armv7.a */,
+				21807E811D2BB7FC0057D194 /* libCardIO_i386.a */,
+				21807E821D2BB7FC0057D194 /* libCardIO_x86_64.a */,
+				21807E831D2BB7FC0057D194 /* libopencv_core_arm64.a */,
+				21807E841D2BB7FC0057D194 /* libopencv_core_armv7.a */,
+				21807E851D2BB7FC0057D194 /* libopencv_core_i386.a */,
+				21807E861D2BB7FC0057D194 /* libopencv_core_x86_64.a */,
+				21807E871D2BB7FC0057D194 /* libopencv_imgproc_arm64.a */,
+				21807E881D2BB7FC0057D194 /* libopencv_imgproc_armv7.a */,
+				21807E891D2BB7FC0057D194 /* libopencv_imgproc_i386.a */,
+				21807E8A1D2BB7FC0057D194 /* libopencv_imgproc_x86_64.a */,
 			);
 			path = CardIO;
 			sourceTree = "<group>";
@@ -325,6 +357,10 @@
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCreditCardRec/";
 				DSTROOT = /tmp/EUExCreditCardRec.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExCreditCardRec/EUExCreditCardRec-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
@@ -345,6 +381,10 @@
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexCreditCardRec/";
 				DSTROOT = /tmp/EUExCreditCardRec.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExCreditCardRec/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExCreditCardRec/EUExCreditCardRec-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
