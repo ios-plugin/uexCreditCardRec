@@ -69,12 +69,12 @@
         //[EUtility brwView:meBrwView evaluateScript:jsStringCB];
          [self.webViewEngine callbackWithFunctionKeyPath:@"uexCreditCardRec.cbCreditCard" arguments:ACArgsPack(cardNumber,date,cvv)];
         NSDictionary *dic = @{@"cardNumber":cardNumber};
-        [self.func executeWithArguments:ACArgsPack(dic)];
-        self.func = nil;
+        [self.func executeWithArguments:ACArgsPack(@(0),dic)];
+        
     } else {
-        //
+        [self.func executeWithArguments:ACArgsPack(@(1),nil)];
     }
-    
+       self.func = nil;
     [scanViewController dismissModalViewControllerAnimated:YES];
 }
 
