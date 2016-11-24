@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EUExBase.h"
+
 #import "EUExBaseDefine.h"
 #import "CardIO.h"
 

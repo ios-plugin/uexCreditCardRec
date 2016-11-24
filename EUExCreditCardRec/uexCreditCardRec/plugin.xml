@@ -2,6 +2,5 @@
 <uexplugins>
     <plugin name="uexCreditCardRec">
         <method name="openCreditCardRec"></method>
-        <method name="close"></method>
     </plugin>
 </uexplugins>
